@@ -1,9 +1,9 @@
 #include <msp430.h>
 
 //TM1638模块引脚定义
-#define DIO BIT3
+#define DIO BIT5
 #define CLK BIT4
-#define STB BIT5
+#define STB BIT3
 #define IO_OUT P1OUT
 //#define DQ BIT0 //采样口为 P1.0
 
